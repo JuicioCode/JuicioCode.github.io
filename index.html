@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Caduta di Tensione </title>
+</head>
+<body>
+    <img src="https://cdn.archilovers.com/people/Platek-6862b759-log1.gif">
+    <form>
+      <fieldset>
+        <legend>Inserisci Dati</legend>
+        <div class="input-group fluid">
+          <label for="nmbr">Luminaires Voltage</label>
+          <input type="number" id="LV" placeholder="0">
+          Volt
+        </div>
+        <div class="input-group fluid">
+          <label for="nmbr">Luminaires Power</label>
+          <input type="number" id="LP" placeholder="0">
+          Watt
+        </div>
+        <div class="input-group fluid">
+          <label for="nmbr">Max Drop Voltage</label>
+          <input type="number" id="MDP" placeholder="0" disabled>
+          Volt
+        </div>
+      </fieldset>
+    </form>
+
+    <button id="calcolare">Calcola</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Wire Section ( mm^2 )</th>
+          <th>Max Cable Length ( m )</th>
+          <th>Total Cable Length( Kg )</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1.5</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2.5</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="main.js">
+  </body>
+  </html>
